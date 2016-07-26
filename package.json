@@ -1,0 +1,15 @@
+{
+  "name": "header_parser_microservice",
+  "version": "1.0.0",
+  "description": "I can get the IP address, language and operating system for my browser.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
