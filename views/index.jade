@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .container
+    h1.header
+      | API Basejump: Timestamp microservice
+      blockquote
+        | User stories:
+        ul
+          | I can get the IP address, language and operating system for my browser.
+      h3 Example usage:
+      code #{host}/api/whoami
+      h3 Example output:
+      code
+        | {  
+        |&quot;language&quot;:&quot;en-us&quot;,&quot;software&quot;:&quot;Macintosh; Intel Mac OS X 10_13&quot;
+        | }
